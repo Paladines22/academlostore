@@ -66,7 +66,7 @@ function pushProduct(products) {
                         </div>
                     </td>
                     <td>${products[i].name}</td>
-                    <td>$ ${products[i].price.toFixed(2)}</td>
+                    <td>$ ${products[i].price.toFixed(2)-0.49}</td>
                     <td>
                         <button class="btn btn-danger" onclick="deleteTask(${products[i].id})">
                             <i class="fas fa-trash-alt"></i>

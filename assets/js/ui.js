@@ -22,7 +22,7 @@ function printProducts(products) {
                         </div>
                         <div class="card-body">
                             <h6 class="card-title">${products[i].name}</h6>
-                            <p class="card-text h5 text-right mt-3">$ ${products[i].price.toFixed(2)}</p>
+                            <p class="card-text h5 text-right mt-3">$ ${products[i].price.toFixed(2)-0.49}</p>
                             <input class="btn btn-danger" type="submit" value="Agregar" onclick="addProduct(${products[i].id})">
                         </div>
                     </div>
