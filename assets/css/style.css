@@ -46,10 +46,20 @@ img {
     max-width: 100%;
 }
 
-.header img:hover {
-    rotate: 15deg;
-    transition: 0.5s;
+.header--h1:hover {
+    color: #000000;
+    transition: 1s;
 }
+
+.header img:hover {
+    rotate: 360deg;
+    transition: 1s;
+}
+
+p:hover{
+    color: #000000;
+}
+
 
 img:hover {
     cursor: pointer;
